@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>뽀빠이연합의원</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+
+    <script src="js/wow.min.js"></script>
+    <style>
+        * {margin:0; padding:0;}
+        .wrap {text-align:center; position: relative;}
+        .wrap img {width:100%; max-width:1920px; display:inline-block; vertical-align: bottom;}
+        .wrap.mo {display:none;}
+        .wrap .head {position:fixed; top:0; left:0; width:100%; height:75px; display:flex; justify-content: space-between; align-items: center; padding:0 10px; box-sizing: border-box; background:#fff; z-index:99; box-shadow: 0 0 10px rgba(0,0,0,0.5);}  
+        .wrap .logo img {width:225px;}
+        .wrap .phone img {width:50px;}
+
+        .visit {display: flex; align-items: center; justify-content: center; position:relative;}
+        .visit .item-box { height:100vh; padding:0; box-sizing: border-box;}
+        .visit .item-box .video-wrap .video-slider {box-sizing: border-box;}
+        .visit .item-box .video-wrap .video-slider .video-item { padding:0px; width:100vw; margin:auto;box-sizing: border-box;}
+        .visit .item-box .video-wrap .video-slider .video-item .video-container { position: relative; padding-bottom: 80%; padding-top: 0px;  overflow: hidden; box-sizing: border-box;}
+        .visit .item-box .video-wrap .video-slider .video-item .video-container img { position: absolute; top: 0; left:0; width:100%; height:100vh; border:0px solid #fff;}
+        .visit .item-box .video-wrap .video-slider .video-item .video-container p.line {position: absolute; top: 140px; left:50px; z-index:99; color:#fff; border:1px solid #fff; padding:3px 7px;}
+        .visit .item-box .video-wrap .video-slider .video-item .video-container p.tit {position: absolute; top: 190px; left:50px; z-index:99; color:#fff; font-size:39px; font-weight:600;}
+        .visit .item-box .video-wrap .slider-control-btn { top: 46%; padding: 0 10px; z-index: 1; transition: 0.5s;}
+        .visit .item-box .video-wrap .slider-control-btn.disabled {opacity:1; cursor: default;}
+        .visit .item-box .video-wrap .slider-control-btn img {width:43px;}
+        .visit .item-box .video-wrap .slider-control-btn.prev-btn {left:20px}
+        .visit .item-box .video-wrap .slider-control-btn.next-btn {right:20px}
+
+
+        @media screen and (max-width: 768px) {
+            .wrap.pc {display:none; }
+	        .wrap.mo {display:block;}
+            .visit {margin-bottom:80px;}
+            .visit .item-box  {height:auto;}
+            .visit .item-box .video-wrap .video-slider .video-item .video-container img {height:100%; top:42px;}
+            .visit .item-box .video-wrap .video-slider .video-item .video-container p.tit {font-size:18px; top:60px; left:20px;}
+            .visit .item-box .video-wrap .slider-control-btn {top:45%; padding:0;}
+            .visit .item-box .video-wrap .slider-control-btn.next-btn {right:0;}
+            .visit .item-box .video-wrap .slider-control-btn.prev-btn {left:0;}
+        }
+    </style>
+    
+    <script>
+        new WOW().init();
+    </script>
+</head>
+<body>
+    <!-- PC -->
+    <div class="wrap pc">
+        <img src="images/sec_01.jpg" alt="" class="pc wow fadeInUp" data-wow-delay="0.1s">
+        <img src="images/sec_02.jpg" alt="" class="pc wow fadeInUp" data-wow-delay="0.3s">
+
+        <div class="visit d-m-standard2">
+            <div class="item-box d-w-full">
+                <div class="video-wrap d-w-full">
+                    <button type="button" class="position-absolute slider-control-btn prev-btn btn slider2-prev"><img src="images/pre2.png"></button>
+                    <div class="video-slider">
+                        <div>
+                            <div class="video-item">
+                                <div class="video-container">
+                                    <img src="images/pic_01.jpg">
+                                    <p class="line">병원세부소개 </p>
+                                    <p class="tit">병원 로비 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="video-item">
+                                <div class="video-container">
+                                    <img src="images/pic_02.jpg">
+                                    <p class="line">병원세부소개 </p>
+                                    <p class="tit">병원 로비  </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="video-item">
+                                <div class="video-container">
+                                    <img src="images/pic_03.jpg">
+                                    <p class="line">병원세부소개 </p>
+                                    <p class="tit">병원 로비  </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="video-item">
+                                <div class="video-container">
+                                    <img src="images/pic_04.jpg">
+                                    <p class="line">병원세부소개 </p>
+                                    <p class="tit">병원 로비 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="video-item">
+                                <div class="video-container">
+                                    <img src="images/pic_05.jpg">
+                                    <p class="line">병원세부소개 </p>
+                                    <p class="tit">병원 로비 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="video-item">
+                                <div class="video-container">
+                                    <img src="images/pic_06.jpg">
+                                    <p class="line">병원세부소개 </p>
+                                    <p class="tit">치료실 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="video-item">
+                                <div class="video-container">
+                                    <img src="images/pic_07.jpg">
+                                    <p class="line">병원세부소개 </p>
+                                    <p class="tit">재활치료실 </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="video-item">
+                                <div class="video-container">
+                                    <img src="images/pic_08.jpg">
+                                    <p class="line">병원세부소개 </p>
+                                    <p class="tit">재활치료실  </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="video-item">
+                                <div class="video-container">
+                                    <img src="images/pic_09.jpg">
+                                    <p class="line">병원세부소개 </p>
+                                    <p class="tit">병원 로비   </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="video-item">
+                                <div class="video-container">
+                                    <img src="images/pic_10.jpg">
+                                    <p class="line">병원세부소개 </p>
+                                    <p class="tit">병원 내부 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="video-item">
+                                <div class="video-container">
+                                    <img src="images/pic_11.jpg">
+                                    <p class="line">병원세부소개 </p>
+                                    <p class="tit">협력병원안내 </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <buttion type="buttion" class="position-absolute slider-control-btn next-btn btn slider2-next"><img src="images/next2.png"></buttion>
+                </div>
+            </div>
+        </div>
+        <img src="images/sec_03.jpg" alt="" class="pc wow fadeInUp" data-wow-delay="0.2s">
+        <img src="images/sec_04.jpg" alt="" class="pc wow fadeInUp" data-wow-delay="0.2s">
+        <img src="images/sec_05.jpg" alt="" class="pc wow fadeInUp" data-wow-delay="0.2s">
+    
+    </div>
+    <!-- 모바일 -->
+    <div class="wrap mo">
+        <div class="head">
+            <div class="logo"><img src="images/logo.png" alt="뽀빠이연합의원"></div>
+            <div class="phone"><a href="tel:0532577117"><img src="images/phone.png" alt="전화하기"></a></div>
+        </div>
+        <img src="images/sec_01_m.jpg" alt="" class="mo wow fadeInUp" data-wow-delay="0.1s">
+        <img src="images/sec_02_m.jpg" alt="" class="mo wow fadeInUp" data-wow-delay="0.3s">
+        <div class="visit d-w-full">
+            <div class="item-box d-w-full">
+                <div class="video-wrap d-w-full">
+                    <button type="button" class="position-absolute slider-control-btn prev-btn btn slider2-prev"><img src="images/pre2.png"></button>
+                    <div class="video-slider">
+                        <div>
+                            <div class="video-item">
+                                <div class="video-container">
+                                    <img src="images/pic_01.jpg">
+                                    <p class="tit">병원 로비 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="video-item">
+                                <div class="video-container">
+                                    <img src="images/pic_02.jpg">
+                                    <p class="tit">병원 로비  </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="video-item">
+                                <div class="video-container">
+                                    <img src="images/pic_03.jpg">
+                                    <p class="tit">병원 로비  </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="video-item">
+                                <div class="video-container">
+                                    <img src="images/pic_04.jpg">
+                                    <p class="tit">병원 로비 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="video-item">
+                                <div class="video-container">
+                                    <img src="images/pic_05.jpg">
+                                    <p class="tit">병원 로비 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="video-item">
+                                <div class="video-container">
+                                    <img src="images/pic_06.jpg">
+                                    <p class="tit">치료실 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="video-item">
+                                <div class="video-container">
+                                    <img src="images/pic_07.jpg">
+                                    <p class="tit">재활치료실 </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="video-item">
+                                <div class="video-container">
+                                    <img src="images/pic_08.jpg">
+                                    <p class="tit">재활치료실  </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="video-item">
+                                <div class="video-container">
+                                    <img src="images/pic_09.jpg">
+                                    <p class="tit">병원 로비   </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="video-item">
+                                <div class="video-container">
+                                    <img src="images/pic_10.jpg">
+                                    <p class="tit">병원 내부 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="video-item">
+                                <div class="video-container">
+                                    <img src="images/pic_11.jpg">
+                                    <p class="tit">협력병원안내 </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <buttion type="buttion" class="position-absolute slider-control-btn next-btn btn slider2-next"><img src="images/next2.png"></buttion>
+                </div>
+            </div>
+        </div>
+        <img src="images/sec_03_m.jpg" alt="" class="mo wow fadeInUp" data-wow-delay="0.1s">
+        <img src="images/sec_04_m.jpg" alt="" class="mo wow fadeInUp" data-wow-delay="0.1s">
+        <img src="images/sec_05_m.jpg" alt="" class="mo wow fadeInUp" data-wow-delay="0.1s">
+  
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script>
+        //병원둘러보기
+     
+
+    $(".video-slider").slick({
+        arrows: false,
+        dots: false,
+        infinite: true,
+        slidesToShow: 1,
+        centerPadding : "0%",
+        centerMode : true,
+        responsive: [
+            {
+              breakpoint: 1025,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: false,
+                centerPadding : "0%",
+              }
+            }
+        ]
+    });
+
+
+
+    $(".slider2-prev").on("click", function() {
+        $(".video-slider").slick("slickPrev");
+    });
+
+    $(".slider2-next").on("click", function() {
+        $(".video-slider").slick("slickNext");
+    });
+    </script>
+</body>
+</html>
